@@ -96,3 +96,119 @@ img {
   width: 450px;
   text-align: center;
 }
+
+.card-label{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+
+.card {
+  display: flex;
+  margin-right: 48px;
+  justify-content: space-evenly;
+  /* margin-left: 180px; */
+  /* flex-wrap: wrap; */
+  margin-bottom: 135px;
+
+
+  
+}
+
+.box-1 {
+  border: 5px solid #3882f6;
+  border-radius: 15px;
+  height: 150px;
+  width: 150px;
+
+}
+
+.card p {
+      width: 150px;
+      text-align: center;
+      
+}
+
+.text {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text-author {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+  padding-top: 110px;
+
+}
+
+.text-quote {
+  height: 300px;
+  font-size: 36px;
+  flex-wrap: wrap;
+  padding-left: 15px;
+  padding-top: 60px;
+  width: 50%;
+  font-style: italic;
+  font-weight: 300;
+  justify-content: center;
+}
+
+.signup-footer{
+  display: flex;
+  justify-content: center;
+  border: 1px solid #3882f6;
+  background-color: #3882f6;
+  align-self: center;
+  border-radius: 5px;
+  margin-top: 50px;
+  flex-direction: column;
+  width: 650px;
+  color: white;
+  align-items: center;
+  row-gap: 0;
+}
+
+.signup-footer h2{
+  margin-bottom: 0;
+}
+
+.signup-footer p{
+  margin: 0;
+}
+
+.text-footer {
+  display: flex;
+  align-items: center;
+}
+
+
+.sign-up-button{
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+  top: -25px;
+  left: 35px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  width: 100%;
+  color: #e5e7eb;
+  margin-top: 50px;
+  height: 100px;
+  align-items: center;
+
+}
+
